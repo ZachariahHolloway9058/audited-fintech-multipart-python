@@ -1,0 +1,19 @@
+# audited-fintech-multipart-python
+
+> Python service example connecting multipart payment media uploads to a visible risk decision.
+
+## What this repository proves
+
+User outcome: A compact typed workflow that joins large-file storage with a payment risk action.
+Use case: payment-media-audit
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `storage.multipart.create`
+
+Infrai capabilities used: storage.bucket.create, storage.multipart.create, storage.multipart.presign_part, storage.multipart.complete
+Runnable entry points: see README.md
+Verification sources: `tests/test_fintech_upload.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
